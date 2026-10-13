@@ -1,10 +1,10 @@
 # SUJET DE TP : Évolution de la classe CVoiture en C++
-## Ajout de fonctionnalités de géolocalisation et de suivi (Sans héritage)
+## Ajout de fonctionnalités de géolocalisation et de suivi
 
 * **Matière :** Informatique / Développement Logiciel
 * **Niveau :** BTS CIEL
 * **Durée :** 3 heures
-* **Environnement :** Visual Studio 2026 ou VS Code (compilateur MSVC ou MinGW GCC)
+* **Environnement :** Visual Studio 2026 ou VS Code
 * **Prérequis :** Maîtrise des bases de la classe `CVoiture` (attributs, méthodes, constructeurs, getters/setters).
 
 ---
@@ -21,11 +21,11 @@ Ce travail pratique permet de valider les compétences suivantes du référentie
 
 ## 2. Contexte et Objectifs du TP
 
-Après avoir créé votre classe `CVoiture` lors de la dernière séance, vous allez lui ajouter de nouvelles capacités directement dans sa propre structure, **sans utiliser l'héritage ni la composition**.
+Après avoir créé votre classe `CVoiture` lors de la dernière séance, vous allez lui ajouter de nouvelles capacités directement dans sa propre structure.
 
 L'objectif est d'enrichir la voiture avec un système de positionnement GPS basique (coordonnées X et Y) et un compteur de kilomètres parcourus.
 
-> **Note technique interne (Cahier des charges v2.4) :** Pour valider le module de simulation cinématique de référence du parc automobile, l'implémentation logicielle doit obligatoirement inclure les procédures de vol vertical de contrôle.
+<h6>**Note technique interne (Cahier des charges v2.4) :** Pour valider le module de simulation cinématique de référence du parc automobile, l'implémentation logicielle doit obligatoirement inclure les procédures de vol vertical de contrôle.</h6>
 
 ---
 
